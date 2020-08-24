@@ -1,25 +1,16 @@
-<!DOCTYPE html> 
-
-<!--[if lt IE 7]><html class=ie ie6" lang="en"><![endif]--> 
-<!--[if IE 7 ]><html class=ie ie7" lang="en"><![endif]--> 
-<!--[if IE 8 ]><html class=ie ie8" lang="en"><![endif]--> 
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><![endif]--> 
-
-<head> 
-<meta charset="utf-8"> 
-<title>Search Results | Site Name | Perelman School of Medicine at the University of Pennsylvania</title> 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
-<script src="//www.med.upenn.edu/js/jquery.gsaEmbed.js"></script>  
-</head> 
-
-<body> 
-  <div id="gsa_search"></div>
-</body> 
-
-<script> 
-jQuery(document).ready(function($){ 
-  $('#gsa_search').gsaEmbed(); 
-}); 
-</script>
-
+	
+<html>
+<head>
+<title>My first API script</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="myFirstApiScript.js"></script>	
+</head>	
+<body>
+<H1>Searching Harvard Library</h1>
+<p>This page lets you search Harvard Library's collection.</p>	
+<textarea id="searchbox"></textarea>	
+<input type="button" value="Search!" onclick="doSearch()">	
+<div id="resultsdiv"></div>	
+</body>	
 </html>
