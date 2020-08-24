@@ -20,3 +20,7 @@ $.ajax({
         }
 });
 }
+
+function displayResults(res){
+
+}
